@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="ar">
+
+<head>
+
+ <meta charset="utf-8">
+<br>
+<br>
+ <title>speech to text</title>
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+ 
+</head>
+
+<body style="background-color:black ;">
+
+<center>
+ <h1 style="color: white ;">Speech to Text </h1>
+
+<br>
+
+ <button id="start-btn"  style="background:blue; color: white;" >
+ أضغط للبدء
+ </button>
+ 
+ <br>
+  <br>
+
+ <textarea class="txt" placeholder=  "....سيتم كتابة كلامك هنا" id="textbox" rows="6" class="form-control" ></textarea>
+
+ <p id="instructions" style="color: rgb(122, 116, 197);">اضغط الزر للبدء</p>
+
+</center>
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+ <script src="script.js"></script>
+ <script src="arduino.js"></script>
+
+</body>
+
+<style>
+
+
+    textarea{
+
+        width: 400px;
+        height: auto;
+        text-align: right;
+    }
+</style>
+
+</html>
